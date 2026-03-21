@@ -1,2 +1,2 @@
 # ML-Assignment-Load-Forecasting
-Load forecasting using ML algorithms: Linear Regression, Decision Tree, Random Forest, Gradient Boosting.
+ML algorithms: member1-dt, member2-rf, member3-svm, member4-lr.
