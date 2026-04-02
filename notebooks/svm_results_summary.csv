@@ -1,3 +1,4 @@
-Model,Kernel,Parameters,Accuracy (%),Precision (%),Recall (%),F1-Score (%),ROC-AUC
-Baseline SVM,RBF,"C=1, gamma=scale",78.4,73.92,88.29,80.46,-
-Tuned SVM,Linear,"C=10, gamma=scale",79.13,74.5,89.05,81.13,0.8828
+Model,Kernel,Parameters,Accuracy (%),F1-Score (%),ROC-AUC,Probabilities
+Baseline SVM,RBF,"C=1, gamma=scale",78.4,80.46,-,Unreliable
+Tuned Linear SVM,Linear,"C=10, gamma=scale",79.13,81.13,0.8828,Unreliable
+Calibrated RBF SVM,RBF,"C=10, gamma=scale",76.73,78.57,0.8468,✅ Realistic
